@@ -1,0 +1,159 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.navbar {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+  background: url("https://source.unsplash.com/1600x900/?restaurant,food")
+    no-repeat center center;
+  background-size: cover;
+  padding: 150px 0;
+  margin-top: 56px;
+}
+
+.hero-section .container {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  color: #ddd;
+}
+
+.search_and_button {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.search_box {
+  display: flex;
+  width: 100%;
+}
+
+.search_box .form-control {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-right: none;
+  padding: 15px;
+}
+
+.search_box .btn {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 15px 30px;
+}
+
+#prd_list .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  color: #343a40;
+  margin: 20px;
+}
+
+#prd_list .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.card-body .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: #28a745;
+  color: #fff;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.card-body .btn:hover {
+  background-color: #218838;
+  transform: translateY(-3px);
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.modal-content:hover {
+  transform: scale(1.02);
+}
+
+.modal-header,
+.modal-footer {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: #fff;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.modal-body img {
+  border-radius: 10px;
+}
+
+.modal-body h5 {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+.modal-body p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
